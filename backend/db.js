@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 // const mongoURI = "mongodb://localhost:27017"; Not worked
-const mongoURI = "mongodb://0.0.0.0:27017";
+const mongoURI = "mongodb://0.0.0.0:27017/inotebook-arya";
 
 // This function for connect to the mongooes if not then show the error 
 async function connectToMongo() {
