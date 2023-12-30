@@ -46,7 +46,7 @@ router.post('/create-user', [
                     id: user.id
                 }
             }
-            const authentication = jwt.sign(data, JWT_Secret);
+            const authentication = jwt.sign(data, JWT_Secret); //send encrypt data in to database
             res.json({ authentication });
 
         } catch (error) {
